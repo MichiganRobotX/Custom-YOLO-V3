@@ -7,7 +7,7 @@ from dataset_functions import show_image_batch_with_bboxes
 from dataset import CustomDataset
 from get_dataloader import get_dataloader
 
-with open("/home/bhushan/Projects/RobotX/Floating-Buoy-Detection/config/dataset_config.yaml") as file:
+with open("../config/dataset_config.yaml") as file:
     config = yaml.full_load(file)
 
 # Create Dataset
